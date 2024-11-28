@@ -1,0 +1,12 @@
+SELECT * FROM tutors;
+
+SELECT * FROM tutors WHERE id = 1;
+
+INSERT INTO tutors (name, subject, price, rating) 
+VALUES ('Иван Дроздов', 'Русский язык', 450, 4);
+
+UPDATE tutors 
+SET price = 600, rating = 5 
+WHERE id = 1;
+
+DELETE FROM tutors WHERE id = 1;
